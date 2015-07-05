@@ -28,7 +28,8 @@
       <div class="trash">
         <%= link_to todo_list_todo_item_path(@todo_list, todo_item.id), method: :delete, data: {confirm: "Are you sure?"} do %>
           <i class="fa fa-trash"></i>
-        <% end %>      </div>
+        <% end %>
+      </div>
     </div>
   <% end %>
 </div>
