@@ -32,7 +32,7 @@
    background:     -ms-linear-gradient(40deg, #4DB87F 10%, #E0C167 100%);
    background:      -o-linear-gradient(40deg, #4DB87F 10%, #E0C167 100%);
    background:         linear-gradient(40deg, #4DB87F 10%, #E0C167 100%);
-   font-family: 'Lato', sans-serif;
+   font-family: 'Raleway', sans-serif;
  }
 
  .clearfix:before,
@@ -112,19 +112,24 @@
  			width: 80%;
  			float: left;
  			p {
+         display:inline;
  				margin: 0;
- 				padding: 1em;
+ 				padding: 1.5em ;
  				color: $dark;
  				font-weight: 100;
+         width: 85%;
+         vertical-align: center;
  			}
+       .trash {
+         display:inline;
+   			width: 10%;
+   			float: right;
+   			text-align: center;
+   			border-left: 1px solid rgba(250,250,250, .3);
+   			padding: 1em 0;
+   		}
  		}
- 		.trash {
- 			width: 10%;
- 			float: left;
- 			text-align: center;
- 			border-left: 1px solid rgba(250,250,250, .3);
- 			padding: 1em 0;
- 		}
+
  		i {
  			color: white;
  			transition: all .4s ease-in-out;
